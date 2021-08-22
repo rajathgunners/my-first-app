@@ -1,0 +1,26 @@
+{
+  "name": "my-first-app",
+  "version": "1.0.0",
+  "description": "This is a tutorial app to set up a react app using webpack and server the app using express backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server/server.js",
+    "webpack": "./node_modules/.bin/webpack -w"
+  },
+  "author": "Rajath",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "webpack-dev-server": "^4.0.0",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0",
+    "nodemon": "^2.0.12"
+  }
+}
