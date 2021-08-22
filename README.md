@@ -8,5 +8,7 @@ This app can be used as a starting point for further learning if you want to set
 The tools used are 
 
 Express.js
+
 React.js
+
 Webpack
