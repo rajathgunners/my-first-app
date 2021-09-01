@@ -11,7 +11,7 @@
     "webpack": "./node_modules/.bin/webpack -w",
     "prepare": "husky install",
     "lint": "eslint .",
-    "lint:fix": "eslint --fix ./server ./client"
+    "lint:fix": "eslint --fix ."
   },
   "author": "Rajath",
   "license": "ISC",
