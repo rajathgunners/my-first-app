@@ -6,6 +6,7 @@ const y = {
   a: 1,
   b: 2,
 };
+const z = 100;
 
 const PORT = 5000;
 const app = express();
