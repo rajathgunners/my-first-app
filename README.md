@@ -11,27 +11,9 @@ Set up frontend react app and bundle using webpack and serve bundle with express
 
 Set up eslint and prettier - https://www.youtube.com/watch?v=SydnKbGc7W8
 
-Set up husky, lintstaged - https://www.youtube.com/watch?v=jNxDNoYEGVU
+Set up husky (pre-commit, commit-msg), lintstaged - https://www.youtube.com/watch?v=jNxDNoYEGVU
 
 
-The tools used are 
-
-Express.js
-
-React.js
-
-Webpack
-
-
-Code Formatting Tools:
-
-prettier
-
-eslint
-
-husky - commit hooks
-
-lint-staged - run commit hooks only on staged files
 
 
 
