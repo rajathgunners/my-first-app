@@ -14,6 +14,11 @@ Set up eslint and prettier - https://www.youtube.com/watch?v=SydnKbGc7W8
 Set up husky (pre-commit, commit-msg), lintstaged - https://www.youtube.com/watch?v=jNxDNoYEGVU
 
 
+TODO:
+
+Set up Commitizen to handle commits.
+
+
 
 
 
