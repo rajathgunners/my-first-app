@@ -1,11 +1,17 @@
 {
   "name": "my-first-app",
   "version": "1.0.0",
+  "engines": {
+    "node": ">=10.13.0"
+  },
   "description": "This is a tutorial app to set up a react app using webpack and server the app using express backend",
   "main": "index.js",
   "scripts": {
     "start": "nodemon server/server.js",
-    "webpack": "./node_modules/.bin/webpack -w"
+    "webpack": "./node_modules/.bin/webpack -w",
+    "prepare": "husky install",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix ./server ./client"
   },
   "author": "Rajath",
   "license": "ISC",
@@ -32,6 +38,7 @@
     "prettier": "^2.3.2",
     "webpack": "^5.51.1",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.0.0"
+    "webpack-dev-server": "^4.0.0",
+    "husky": "^7.0.0"
   }
 }

@@ -1,32 +1,46 @@
 {
-    "env": {
-        "browser": true,
-        "commonjs": true,
-        "es2021": true,
-        "node": true
+  "env": {
+    "browser": true,
+    "commonjs": true,
+    "es2021": true,
+    "node": true
+  },
+  "extends": [
+    //"eslint:recommended",
+    //"plugin:react/recommended"
+    "airbnb",
+    "prettier"
+    //"plugin:node/recommended"
+  ],
+  "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
     },
-    "extends": [
-        //"eslint:recommended",
-        //"plugin:react/recommended"
-        "airbnb",
-        "prettier",
-        "plugin:node/recommended"
+    "sourceType": "module",
+    "allowImportExportEverywhere": true,
+    "ecmaVersion": 12
+  },
+  "plugins": [
+    "react",
+    "prettier"
+  ],
+  "rules": {
+    "no-unused-vars": "warn",
+    "no-console": "off",
+    "prettier/prettier": "error",
+    "import/newline-after-import": [
+      "error"
     ],
-    "parserOptions": {
-        "ecmaFeatures": {
-            "jsx": true
-        },
-        "ecmaVersion": 12
-    },
-    "plugins": [
-        "react",
-        "prettier"
-    ],
-    "rules": {
-      "no-unused-vars": "warn",
-      "no-console": "off",
-      "prettier/prettier": "error",
-      "import/newline-after-import": ["error"],
-      "func-names": 0
-    }
+    "func-names": 0,
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [
+          ".js",
+          ".jsx"
+        ]
+      }
+    ]
+  }
 }
